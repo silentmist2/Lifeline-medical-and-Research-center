@@ -1,0 +1,146 @@
+body{
+    margin: -0.01%;    
+    height: 258vh;
+    background: linear-gradient(-60deg, #aec6cf 52%, #F0EAD6)
+}
+
+.heading1{
+    width: 750px;
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: 550;
+    text-align: center;
+    position: relative;
+    left: 250px;
+    margin-left: 0px;
+}
+.navbar{
+    width: 100%;
+    position: relative;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: gray;
+    overflow: hidden;
+    text-align: right;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+.navbar a{
+    color: rgb(15, 17, 17);
+    text-decoration: none;
+    padding: 15px 20px;   
+    display: block;
+    text-align: center; 
+    margin-bottom: 0px;
+    
+}
+.navbar a:hover{
+    background-color: rgb(50, 59, 59);
+}
+.navbar li{
+    display: inline-block;
+    text-align: right;
+}
+.navbartxt{
+    text-align: right;
+}
+.headsect{
+    block-size: 105px;
+}
+.heading2{
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 9px;
+}
+#logo{
+    width: 350px;
+    height: 300px;
+    position: relative;
+    bottom: 166px;
+    block-size: 240px;
+}
+.secdoc1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#docimg{
+    width: 490px;
+    height: 330px;
+    margin-top: 8px;
+    position: relative;
+    margin-left: 10px;
+}
+#doc1{
+    position: relative;
+    left: 10px;
+}
+#lifeline{
+    position: relative;
+    font-size: medium;
+}
+#h3doc{
+    margin: 0;
+    bottom: 3;
+}
+#paradoc{
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+
+.gridcontainer{
+    display: grid;
+    grid-template-rows: 300px 300px 300px ;
+    grid-template-columns: 300px 300px 300px 300px;
+    margin-bottom: 10px;
+}
+.griditems{
+    padding: 40px;
+    border: 20px;
+    border-color: black;
+    text-align: center;
+}
+.griditems img{
+    width: 180px;
+    height: 200px;
+    gap: 10px;
+}
+
+
+.footer{
+    background-color: #616569;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding: 0;
+    justify-content: space-evenly;
+}
+.listcolumn{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    margin-top: -5px;
+}
+#mail{
+    padding-top: 50px;
+}
+.footer-list{
+    list-style-position: inside;
+    list-style-type: circle;
+    display: inline;
+    margin-right: 10px;
+}
+#unorderlistfoot{
+    list-style: none;
+    display: inline-block;
+}

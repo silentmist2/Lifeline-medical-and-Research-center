@@ -1,0 +1,146 @@
+body{
+    margin: -0.01%;    
+    height: 600vh;
+    background: linear-gradient(-60deg, #aec6cf 52%, #F0EAD6)
+}
+
+.heading1{
+    width: 750px;
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: 550;
+    text-align: center;
+    position: relative;
+    left: 250px;
+    margin-left: 0px;
+}
+.navbar{
+    width: 100%;
+    position: relative;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: gray;
+    overflow: hidden;
+    text-align: right;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+.navbar a{
+    color: rgb(15, 17, 17);
+    text-decoration: none;
+    padding: 15px 20px;   
+    display: block;
+    text-align: center; 
+    margin-bottom: 0px;
+    
+}
+.navbar a:hover{
+    background-color: rgb(50, 59, 59);
+}
+.navbar li{
+    display: inline-block;
+    text-align: right;
+}
+.navbartxt{
+    text-align: right;
+}
+.heading2{
+    position: relative;
+    width: 300px;
+    margin: 0px;
+    left: 500px;
+}
+.headtxt{
+    left: 20px;
+}
+.headsect{
+    block-size: 105px;
+}
+#logo{
+    width: 350px;
+    height: 300px;
+    position: relative;
+    bottom: 166px;
+    block-size: 240px;
+}
+
+
+
+
+main {
+    padding: 20px;
+}
+
+.product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    background-color: #F2F2F2;
+    padding: 14px;
+    padding-right: 900px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.product-card img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 20px;
+}
+.txtpharma{
+    position: relative;
+    left: 380px;
+    bottom: 180px;
+    width: 400px;
+}
+#txtadjust{
+    font-weight: 500;
+    font-size: larger;
+}
+
+.footer{
+    background-color: #616569;
+}
+.footer-container{
+    display: flex;
+}
+.quicklink{
+    margin: -20px;
+    padding-bottom: 0;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding: 0;
+    justify-content: space-evenly;
+}
+.listcolumn{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    margin-top: -5px;
+}
+#mail{
+    padding-top: 50px;
+}
+.footer-list{
+    list-style-position: inside;
+    list-style-type: circle;
+    display: inline;
+    margin-right: 10px;
+}
+#unorderlistfoot{
+    list-style: none;
+    display: inline-block;
+}

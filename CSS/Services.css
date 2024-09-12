@@ -1,0 +1,180 @@
+body{
+    margin: -0.01%;    
+    height: 190vh;
+    background: linear-gradient(-60deg, #aec6cf 52%, #F0EAD6)
+}
+
+.heading1{
+    width: 750px;
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: 550;
+    text-align: center;
+    position: relative;
+    left: 250px;
+    margin-left: 0px;
+}
+.navbar{
+    width: 100%;
+    position: relative;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: gray;
+    overflow: hidden;
+    text-align: right;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+.navbar a{
+    color: rgb(15, 17, 17);
+    text-decoration: none;
+    padding: 15px 20px;   
+    display: block;
+    text-align: center; 
+    margin-bottom: 0px;
+    
+}
+.navbar a:hover{
+    background-color: rgb(50, 59, 59);
+}
+.navbar li{
+    display: inline-block;
+    text-align: right;
+}
+.heading2{
+    position: relative;
+    width: 300px;
+    margin: 0px;
+    left: 500px;
+}
+.headsect{
+    block-size: 105px;
+}
+#logo{
+    width: 350px;
+    height: 300px;
+    position: relative;
+    bottom: 166px;
+    block-size: 240px;
+}
+.servp1{
+    text-align: justify;       
+}
+.sec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    block-size: 200px;
+    margin-bottom: 30px;
+}
+h3{
+    position: relative;
+    bottom: 10px;
+    right: 17px;
+    font-size: xx-large;
+}
+#servp2{
+    position: relative;
+    top: 89px;
+    right: 130px;
+}
+#servimg{
+    width: 452px;
+    height: 240px;
+    position: relative;
+    top: 40px;
+}
+.sec2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    block-size: 290px;
+    position: relative;
+    top: 50px;
+}
+#h4{
+    position: relative;block-size: 300px;
+    font-size: x-large;
+    right: 270px;
+    top: 60px;
+}
+#ul1{
+    position: relative;
+    right: 520px;
+    font-size: 21px;
+    top: 10px;
+}
+#ul2{
+    position: relative;
+    right: 470px;
+    font-size: 21px;
+    top: 10px;
+}
+
+.sec3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    block-size: 300px;
+}
+#servimg2{
+    position: relative;
+    right: 115px;
+}
+.servp1{
+    display: flex;
+    position: relative;
+    font-size: medium;
+}
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 600px;
+    margin-bottom: 30px;
+  }
+
+
+.footer{
+    background-color: #616569;
+}
+.footer-container{
+    display: flex;
+    
+}
+.quicklink{
+    margin: -20px;
+    padding-bottom: 0;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding: 0;
+    justify-content: space-evenly;
+}
+.listcolumn{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    margin-top: -5px;
+}
+#mail{
+    padding-top: 50px;
+}
+.footer-list{
+    list-style-position: inside;
+    list-style-type: circle;
+    display: inline;
+    margin-right: 10px;
+}

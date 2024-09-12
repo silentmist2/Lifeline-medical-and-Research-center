@@ -1,0 +1,213 @@
+body{
+    margin: -0.01%;    
+    height: 680vh;
+    background: linear-gradient(-60deg, #aec6cf 52%, #F0EAD6)
+}
+
+.heading1{
+    width: 750px;
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: 550;
+    text-align: center;
+    position: relative;
+    left: 250px;
+    margin-left: 0px;
+}
+.navbar{
+    width: 100%;
+    position: relative;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: gray;
+    overflow: hidden;
+    text-align: right;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+.navbar a{
+    color: rgb(15, 17, 17);
+    text-decoration: none;
+    padding: 15px 20px;   
+    display: block;
+    text-align: center; 
+    margin-bottom: 0px;
+    
+}
+.navbar a:hover{
+    background-color: rgb(50, 59, 59);
+}
+.navbar li{
+    display: inline-block;
+    text-align: right;
+}
+.navbartxt{
+    text-align: right;
+}
+.heading2{
+    position: relative;
+    width: 300px;
+    margin: 0px;
+    left: 500px;
+}
+.headtxt{
+    left: 20px;
+}
+.headsect{
+    block-size: 105px;
+}
+#logo{
+    width: 350px;
+    height: 300px;
+    position: relative;
+    bottom: 166px;
+    block-size: 240px;
+}
+.aboutusimage{
+    width: 580px;
+    height: auto;
+    margin-top: -0.1px;
+    position: relative;
+    margin-right: 15px;
+}
+
+.sec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.Abus{
+    position: relative;
+    font-size: medium;
+}
+#h3{
+    margin: 0;
+    bottom: 3;
+
+}
+#para{
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.sec2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://assets.mayoclinic.org/content/dam/media/global/images/2023/06/26/mccms-Getty-1082003662-415x275.jpg);
+    background-size: cover;
+    padding: 170px;
+    margin-bottom: 60px;
+}
+#h4{
+    text-align: center;
+    font-size: xx-large;
+}
+#psec1{
+    font-weight: 500;
+}
+
+.sec3{
+    display: flex;
+    align-items: center;
+
+}
+#h5{
+    font-size: 17px;
+    position: relative;
+    bottom: 118px;
+    right: 443px;
+    margin: 0;
+}
+.sec3img{
+    position: relative;
+    width: 355px;
+    height: 200px;
+    left: 30px;
+}
+#h6{
+    font-size: x-large;
+    position: relative;
+    bottom: 80px;
+    left: 96px;
+    margin: 0;
+}
+#psec2{
+    position: relative;
+    right: 182px;
+    font-size: medium;
+    top: 10px;
+}
+.table{
+    margin-top: 20px;
+    width: 1250px;
+}
+.table,th,td{
+    border: 1.3px solid #000;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;
+}
+td{
+    width: 200px;
+}
+
+
+#expertise{
+    text-align: center;
+    font-weight: 200;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+#list1{
+    list-style-position: outside;
+    padding-right: 100px;
+    margin-right: 85px;
+    flex-direction: column;
+    list-style-type: circle;
+}
+.footer{
+    background-color: #616569;
+}
+.footer-container{
+    display: flex;
+}
+.quicklink{
+    margin: -20px;
+    padding-bottom: 0;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding: 0;
+    justify-content: space-evenly;
+}
+.listcolumn{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    margin-top: -5px;
+}
+#mail{
+    padding-top: 50px;
+}
+.footer-list{
+    list-style-position: inside;
+    list-style-type: circle;
+    display: inline;
+    margin-right: 10px;
+}
+#unorderlistfoot{
+    list-style: none;
+    display: inline-block;
+}
